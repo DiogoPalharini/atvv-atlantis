@@ -1,0 +1,108 @@
+.accommodations-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.accommodations-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-room-button {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-room-button:hover {
+    background-color: #0056b3;
+}
+
+.rooms-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.room-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.room-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.room-info {
+    padding: 15px;
+}
+
+.room-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.room-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.room-details {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.room-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.room-button {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.room-button.edit {
+    background-color: #28a745;
+}
+
+.room-button.delete {
+    background-color: #dc3545;
+}
+
+.room-button:hover {
+    background-color: #0056b3;
+}
+
+.room-button.edit:hover {
+    background-color: #218838;
+}
+
+.room-button.delete:hover {
+    background-color: #c82333;
+}

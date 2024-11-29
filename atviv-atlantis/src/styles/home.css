@@ -1,0 +1,81 @@
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #F8F9FA;
+}
+
+.hero-content {
+    margin-bottom: 30px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #343A40;
+    margin: 0;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    color: #6C757D;
+}
+
+
+.image-placeholder {
+    width: 100%;
+    max-width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #E9ECEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6C757D;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px dashed #6C757D;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 900px; /* Tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Opcional, adiciona cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+/* Container do Botão */
+.hero-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.hero-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.hero-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /
+}
+
+.hero-button:active {
+    transform: scale(1); 
+}

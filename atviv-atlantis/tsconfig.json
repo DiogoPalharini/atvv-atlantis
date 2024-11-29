@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,               // Permite arquivos .js e .jsx
+    "jsx": "react-jsx",            // Suporte ao JSX no estilo React 17+
+    "noImplicitAny": false,        // Permite tipos 'any' implícitos
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es6",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
